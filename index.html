@@ -275,6 +275,9 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
 </head>
 <body>
 
+<!-- Botones de contacto sin destino: todavía no hay número de WhatsApp.
+     Para reactivarlos, convertir cada <span class="btn btn-wa">, <span class="wabtn">
+     y <span class="fab"> en un <a> con su href. -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="ico-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></symbol></svg>
 
 <header class="nav" data-screen-label="Barra superior">
@@ -287,8 +290,8 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <a href="#modelos">Modelos</a>
       <a href="#por-que">Por qué SEFIA</a>
     </nav>
-    <a class="btn btn-wa btn-sm" href="https://wa.me/59898836705?text=Hola%21%20Quiero%20consultar%20por%20un%20calefactor%20SEFIA">
-      <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Escribinos</a>
+    <span class="btn btn-wa btn-sm">
+      <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Escribinos</span>
   </div>
 </header>
 
@@ -306,8 +309,8 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       de calefactores a leña y pellet. 21 modelos SEFIA — con horno, esquineros, panorámicos
       y de empotrar. Enviamos a todo el país.</p>
     <div class="cta">
-      <a class="btn btn-wa" href="https://wa.me/59898836705?text=Hola%21%20Quiero%20que%20me%20asesoren%20para%20elegir%20mi%20calefactor%20SEFIA">
-        <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Encontrá tu modelo ideal</a>
+      <span class="btn btn-wa">
+        <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Encontrá tu modelo ideal</span>
       <a class="btn btn-ghost" href="#modelos">Ver los 21 modelos</a>
     </div>
   </div>
@@ -665,9 +668,9 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
 
     </div>
     <div class="empty">No hay equipos que combinen ese tipo con esos metros.<br>
-      Probá con <b>Cualquiera</b> en metros — o <a href="https://wa.me/59898836705?text=Hola%21%20No%20encuentro%20el%20modelo%20que%20busco%20en%20la%20web">escribinos y te buscamos el equipo</a>.</div>
-    <p class="helper"><a href="https://wa.me/59898836705?text=Hola%21%20Quiero%20que%20me%20asesoren%20por%20mis%20m2">
-      ¿No sabés cuál elegir? Escribinos y te asesoramos por tus m² &rarr;</a></p>
+      Probá con <b>Cualquiera</b> en metros — o <span>escribinos y te buscamos el equipo</span>.</div>
+    <p class="helper"><span>
+      ¿No sabés cuál elegir? Escribinos y te asesoramos por tus m² &rarr;</span></p>
   </div>
 </section>
 
@@ -683,7 +686,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-madrid.jpg" alt="Ficha técnica MADRID SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20MADRID"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-barcelona" class="modal">
@@ -697,7 +700,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-barcelona.jpg" alt="Ficha técnica BARCELONA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20BARCELONA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-murcia" class="modal">
@@ -711,7 +714,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-murcia.jpg" alt="Ficha técnica MURCIA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20MURCIA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-valencia" class="modal">
@@ -725,7 +728,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-valencia.jpg" alt="Ficha técnica VALENCIA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20VALENCIA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-almeria" class="modal">
@@ -739,7 +742,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-almeria.jpg" alt="Ficha técnica ALMERÍA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20ALMERIA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-alicante" class="modal">
@@ -753,7 +756,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-alicante.jpg" alt="Ficha técnica ALICANTE SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20la%20cocina%20a%20le%C3%B1a%20ALICANTE"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-sevilla" class="modal">
@@ -767,7 +770,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-sevilla.jpg" alt="Ficha técnica SEVILLA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20SEVILLA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-oviedo" class="modal">
@@ -781,7 +784,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-oviedo.jpg" alt="Ficha técnica OVIEDO SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20OVIEDO"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-vigo" class="modal">
@@ -795,7 +798,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-vigo.jpg" alt="Ficha técnica VIGO SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20VIGO"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-cadiz" class="modal">
@@ -809,7 +812,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-cadiz.jpg" alt="Ficha técnica CÁDIZ SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20CADIZ"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-mallorca" class="modal">
@@ -823,7 +826,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-mallorca.jpg" alt="Ficha técnica MALLORCA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20MALLORCA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-toledo" class="modal">
@@ -837,7 +840,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-toledo.jpg" alt="Ficha técnica TOLEDO SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20TOLEDO"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-gijon" class="modal">
@@ -851,7 +854,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-gijon.jpg" alt="Ficha técnica GIJÓN SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20empotrable%20GIJON"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-ibiza" class="modal">
@@ -865,7 +868,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-ibiza.jpg" alt="Ficha técnica IBIZA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20empotrable%20IBIZA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-girona" class="modal">
@@ -879,7 +882,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-girona.jpg" alt="Ficha técnica GIRONA SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20empotrable%20GIRONA"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-bilbao" class="modal">
@@ -893,7 +896,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-bilbao.jpg" alt="Ficha técnica BILBAO SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20empotrable%20BILBAO"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-pellet7" class="modal">
@@ -907,7 +910,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-pellet7.jpg" alt="Ficha técnica PELLET 7 kW SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20a%20pellet%20de%207kW"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-pellet9" class="modal">
@@ -921,7 +924,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-pellet9.jpg" alt="Ficha técnica PELLET 9 kW SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20a%20pellet%20de%209kW"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-pellet11" class="modal">
@@ -935,7 +938,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-pellet11.jpg" alt="Ficha técnica PELLET 11 kW SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesa%20el%20calefactor%20a%20pellet%20de%2011kW"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 <div id="sp-kits" class="modal">
@@ -949,7 +952,7 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <div class="fichah">Ficha del catálogo SEFIA</div>
       <img class="ficha" src="uploads/spec-kits.jpg" alt="Ficha kits de caños SEFIA" loading="lazy">
     </div>
-    <a class="wabtn" href="https://wa.me/59898836705?text=Hola%21%20Me%20interesan%20los%20kits%20de%20ca%C3%B1os"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</a>
+    <span class="wabtn"><svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Consultar por WhatsApp</span>
   </div>
 </div>
 
@@ -978,8 +981,8 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
       <h2>¿Hablamos del invierno?</h2>
       <p>Contanos qué espacio querés calefaccionar y te pasamos el modelo justo y su
         precio en el día.</p>
-      <a class="btn btn-wa" href="https://wa.me/59898836705?text=Hola%21%20Quiero%20hacer%20una%20consulta%20por%20un%20SEFIA">
-        <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Escribinos por WhatsApp</a>
+      <span class="btn btn-wa">
+        <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg>Escribinos por WhatsApp</span>
     </div>
     <div class="info">
       <span class="mark">SEFIA</span>
@@ -1002,8 +1005,8 @@ html{scroll-behavior:smooth;scroll-padding-top:78px}
 </footer>
 
 
-  <a class="fab" href="https://wa.me/59898836705?text=Hola%21%20Quiero%20hacer%20una%20consulta" aria-label="Consultar por WhatsApp">
-    <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg></a>
+  <span class="fab" aria-label="Consultar por WhatsApp">
+    <svg class="i" aria-hidden="true"><use href="#ico-wa"></use></svg></span>
 
 
 </body>
